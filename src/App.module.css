@@ -1,0 +1,38 @@
+.allCounter {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 200px;
+}
+.counter {
+  grid-row: 2/3;
+  justify-self: center;
+  width: 450px;
+  text-align: center;
+  background-color: cadetblue;
+  padding: 80px;
+  border-radius: 20px;
+}
+.display {
+  grid-column: 2/3;
+  font-size: 40px;
+}
+.buttonContainer {
+  grid-row: 2/3;
+  border-radius: 15px;
+}
+.buttonContainer button {
+  width: 170px;
+  line-height: 3rem;
+  border-radius: 2em;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.error {
+  color: red
+}
